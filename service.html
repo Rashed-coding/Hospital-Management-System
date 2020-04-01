@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+.responsive
+{
+width:50%;
+height:auto;
+
+
+}
+*{margin:0;padding:0;}
+@keyframes slide
+{
+0%{left:0;}
+10%{left:0;}
+20%{left:-100%;}
+30%{left:-100%;}
+400%{left:-200%;}
+50%{left:-200%;}
+60%{left:-300%;}
+70%{left:-300%;}
+80%{left:-400%;}
+90%{left:-400%;}
+100%{left:0;}
+
+
+}
+#slider
+{
+overflow:hidden;
+}
+#slider figure img
+{
+float:left;
+width:20%;
+height:400px;
+
+}
+#slider figure
+{
+position:relative;
+width:400%;
+animation:slide 10s infinite;
+}
+</style>
+
+</head>
+<body>
+<h1>Service Page</h1>
+</body>
+
+<div id="slider">
+   <figure >
+     <img src="pic1.jpg" alt=""class="responsive" height="400Px" width="600Px">
+     <img src="pic2.jpg" alt=""class="responsive" height="400Px" width="600Px">
+     <img src="pic3.jpg" alt=""class="responsive" height="400Px" width="600Px">
+     <img src="pic4.jpg" alt=""class="responsive" height="400Px" width="600Px">
+     <img src="pic5.jpg" alt=""class="responsive" height="400Px" width="600Px">
+	 
+	 </figure>
+
+
+
+
+
+</html>
